@@ -1,22 +1,28 @@
 #title {
-  background-color: #E8CDC3;
+  background-color: #b0c2e3;
   color: #fff;
-  ;
 }
-a {text-decoration: none;}
+
+a {
+  text-decoration: none;
+}
+
 h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
   line-height: 1.5;
 }
 
-.container-fluid {
-  padding: 3% 15%;
-
-}
-
 body {
   font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15%;
 }
 
 /* Navigation Bar */
@@ -35,7 +41,10 @@ body {
   font-size: 1.2rem
 }
 
-.warna {color:  #72EFB2;}
+.warna {
+  color: #72EFB2;
+}
+
 .download-button {
   margin: 5% 3% 5% 0;
 }
@@ -45,15 +54,16 @@ body {
   width: 60%;
   border-radius: 100%;
   height: 300px;
-  ;
   width: 300px;
   border: 5px solid;
+  object-fit: contain;
+  background-color: #3f64ba;
 }
 
 /* FEATURES */
 #features {
   padding: 5% 5% 0 5%;
-position: relative;
+  position: relative;
 }
 
 .fitur {
@@ -62,30 +72,47 @@ position: relative;
 }
 
 .paragraf-fitur {
-  color: #8f8f8f;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 2px;
+  color:
 }
-.paragraf-fitur2 {font-size: 0.7rem;
-text-align: center;
-padding-bottom: 2px;
-color: }
+
+.paragraf-fitur2 {
+  padding-top: 5%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  padding-bottom: 2px;
+  color:
+}
+
+.miniheading-fitur {
+  font-size: 1rem;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
 
 .heading-fitur {
-  font-size: 1.5rem;
-  margin-top: 10px;
-  font-family: "Montserrat-bold";
-  font-weight: 900;
+  font-size: 1.35rem;
+  margin-top: 6%;
+  font-family: "Montserrat";
+  font-weight: 450;
 }
-.heading-features {text-align: center;
-position: relative;
-left: 0px;
-padding-bottom: 50px;
-font-family: 'Montserrat';
-font-weight: 400;}
 
+.heading-features {
+  text-align: center;
+  position: relative;
+  left: 0px;
+  padding-bottom: 50px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
 
 /* testimonial */
 #testimonials {
-  background-color: #E8CDC3;
+  background-color: #b0c2e3;
   text-align: center;
   color: white;
 }
@@ -99,27 +126,28 @@ font-weight: 400;}
 
 .foto-testimonial {
   width: 7%;
-  border-radius: 10%;
+  border-radius: 50%;
   margin: 20px;
-
-
 }
+
 .foto-testimonial2 {
   width: 5%;
   margin: 20px;
-
 }
+
 .foto-testimonial3 {
-  width: 9%;
+  width: 20%;
   margin: 20px;
-
 }
 
+.foto-testimonial4 {
+  width: 10%;
+  margin: 20px;
+}
 
 .em-testimonial {
-font-size: 20px;
-color: grey;
-
+  font-size: 20px;
+  color: grey;
 }
 
 #press {
@@ -136,37 +164,35 @@ color: grey;
 .carousel-item {
   padding: 7% 15%;
   text-align: center;
-  color:white;
+  color: white;
 }
-.paragraf-readmore {color: white;}
-.mikhael {border-radius: 100%;
-height: 10%;
-width: 10%;}
 
+.paragraf-readmore {
+  color: white;
+}
 
 #footer {
-text-align: center;
-padding: 1%;
-color: #000000;}
+  text-align: center;
+  padding: 1%;
+  color: #000000;
+}
 
 .hrPemisah {
-	border-top: 8px dotted #8c8b8b;
-    padding-left: 0px;
-    border-left-width: 20px;
-    border-right-width: 20px;
-    margin-left: 800px;
-    margin-right: 800px;
-
+  border-top: 8px dotted #8c8b8b;
+  padding-left: 0px;
+  border-left-width: 20px;
+  border-right-width: 20px;
+  margin-left: 800px;
+  margin-right: 800px;
 }
+
 .heading-testi2 {
-  color : grey;
+  color: white;
   font-family: 'Montserrat';
-  font-size: 2rem;
+  font-size: 1.2rem;
   line-height: 1.5;
-
 }
+
 .fotoFooter {
-width : 2%;
-
-
+  width: 2.5%;
 }
